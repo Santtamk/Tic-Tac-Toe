@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:cursive;
   }
 
 .box{
@@ -14,7 +15,6 @@
     font-size: 50px;
     box-shadow: 0 0 0 3px;
     cursor: pointer;
-    font-family:cursive;
 }
 main, header{
     display: flex;
@@ -26,3 +26,22 @@ main, header{
   justify-content: center;
   padding-top: 50px;
 }
+
+.end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.turn {
+  font-size: 50px;
+
+}
+.restart{
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 5px 5px;
+}
+
+

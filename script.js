@@ -14,7 +14,7 @@
             [2, 4, 6]
         ]
 
-        const options = ["", "", "", "", "", "", "", "", ""];
+        let options = ["", "", "", "", "", "", "", "", ""];
         let currentPlayer = 'X';
         let running = false;
 
@@ -78,7 +78,6 @@
             options = ["", "", "", "", "", "", "", "", ""];
             turn.textContent = `${currentPlayer}'s Turn`;
             boxSelect.forEach(cell => cell.textContent = "");
-            // boxSelect.forEach(cell => cell.addEventListener('click', cellClicked));
             running = true
         }
 
